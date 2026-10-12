@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to a Denkovi device",
+        "description": "IP-16R relay control and IP-32IN input monitoring use the device JSON API.",
+        "data": {
+          "host": "Host or IP address",
+          "port": "HTTP port",
+          "password": "Device password",
+          "model": "Device model",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect or authenticate. Check the address, password, and JSON API settings."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Denkovi smartDEN IP Devices options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}
