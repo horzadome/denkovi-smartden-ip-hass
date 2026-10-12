@@ -2,7 +2,7 @@
   "domain": "denkovi-smartden-ip",
   "name": "Denkovi smartDEN IP Devices",
   "codeowners": [
-    "@YOUR_GITHUB_USERNAME"
+    "@horzadome"
   ],
   "config_flow": true,
   "documentation": "https://github.com/horzadome/denkovi-smartden-ip-hass",
